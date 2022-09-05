@@ -1,0 +1,72 @@
+body{
+    height: 110vh;
+    /*background-image:  /*linear-gradient(rgb(36, 5, 144),rgb(65, 172, 215));*/
+    background-color: #1d1d1f;
+}
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+h1{
+    color: aliceblue;
+    margin-top: 12px;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 900px;
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 15px;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    color: #1d1d1f;
+    background-color: #72e5ce ;
+    width: 24%;
+    padding: 10px;
+    margin: 17px;
+    border: 2px #1d1d1f;
+    border-radius: 9px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+float: right;
+clear: both;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 80%;
+    border: 2px #72e5ce;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border-radius: 6px;
+    height: 34px;
+
+}
+.btn{
+    color: #1d1d1f ;
+    background-color: #72e5ce;
+    width: 90%;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid #72e5ce;
+    border-radius: 6px;
+    height: 34px;
+    width: 14%;
+}
